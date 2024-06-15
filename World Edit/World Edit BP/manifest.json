@@ -1,0 +1,26 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Edit the world...",
+		"name": "World Edit (BP)",
+		"uuid": "4DABE2DB-D29E-491F-9114-D902E1CB87F2",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 19, 20]
+	},
+	"modules": [
+		{
+			"description": "Edit the world...",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "E84D31D6-E545-49E8-800C-3F2FE5AB01A0",
+			"version": [1, 0, 0],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.12.0-beta"
+		}
+	]
+}
